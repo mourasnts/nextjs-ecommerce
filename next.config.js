@@ -7,6 +7,6 @@ module.exports = {
         "PAYPAL_CLIENT_ID": "YOUR_PAYPAL_CLIENT_ID",
         "CLOUD_UPDATE_PRESET": "YOUR_CLOUD_UPDATE_PRESET",
         "CLOUD_NAME": "commerce16072001",
-        "CLOUD_API": "483969158735316"
+        "CLOUD_API": "gOIObqmJQER_yHh6s0ezSYvPMH4"
     }
 }
