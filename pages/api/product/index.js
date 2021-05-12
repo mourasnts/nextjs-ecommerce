@@ -61,7 +61,9 @@ const getProducts = async (req, res) => {
         const features = new APIfeatures(Products.find(), req.query)
         .filtering().sorting().paginating()
 
+        console.log('features ok')
         const products = await features.query
+        console.log(products)
         
         res.json({
             status: 'success',
