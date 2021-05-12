@@ -1,7 +1,7 @@
 module.exports = {
     env: {
         "BASE_URL": "https://nextjs-ecommerce-orpin.vercel.app",
-        "MONGODB_URL": "mongodb+srv://DbUser:ZuMR37pS6nk-4s9@cluster0.nq63f.mongodb.net/commerce",
+        "MONGODB_URL": "mongodb+srv://DbUser:ZuMR37pS6nk-4s9@cluster0.nq63f.mongodb.net/commerce?retryWrites=true&w=majority",
         "ACCESS_TOKEN_SECRET": "T0k3nDeAc3sS0",
         "REFRESH_TOKEN_SECRET": "t0kEnD3R3fResh",
         "PAYPAL_CLIENT_ID": "YOUR_PAYPAL_CLIENT_ID",
